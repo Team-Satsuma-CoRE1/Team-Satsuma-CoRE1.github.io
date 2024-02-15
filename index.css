@@ -66,11 +66,35 @@ ul.icon img{
 
 .cards{
   display:flex;
-  flex-wrap:wrap
+  flex-wrap:wrap;
+  color: #FFFFFF;
+  text-align: center;
 }
 
+.cards img{
+  height: 60px;
+  width: 60px;
+  border-radius:  50%;
+  margin-top: 10px;
+}
+
+.card_l{
+  width: 350px;
+  height: 300px;
+  box-shadow: 6px 5px #e2e2e2;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding: 0px;
+  border: solid 1px #cacaca;
+  text-align: center;
+  background-color: #1c1c1c;
+  font-size: auto;
+}
+
+
 .card{
-  width: 250px;
+  width: 300px;
   box-shadow: 6px 5px #e2e2e2;
   border-radius: 6px;
   margin-right: 20px;
@@ -78,9 +102,10 @@ ul.icon img{
   padding: 5px;
   border: solid 1px #cacaca;
   text-align: center;
+  background-color: #1c1c1c;
+ 
 }
 
 .card p{
   font-size: large;
-  padding: 0px 20px;
 }
