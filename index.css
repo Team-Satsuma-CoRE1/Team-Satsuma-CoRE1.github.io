@@ -63,3 +63,24 @@ ul.icon img{
   width: 55px;
   margin-right: 15px;
 }
+
+.cards{
+  display:flex;
+  flex-wrap:wrap
+}
+
+.card{
+  width: 250px;
+  box-shadow: 6px 5px #e2e2e2;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: solid 1px #cacaca;
+  text-align: center;
+}
+
+.card p{
+  font-size: large;
+  padding: 0px 20px;
+}
