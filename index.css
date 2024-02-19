@@ -63,11 +63,15 @@ ul.icon img{
   width: 55px;
   margin-right: 15px;
 }
-
-.twitter p { 
+/*
+.twitter{ 
   display:inline;
   padding:10px 25px;
   color:#FFFFFF;
   background-color:#000000;
   border-radius: 10px;
+}
+*/
+.twitter{
+  text-align: center;
 }
