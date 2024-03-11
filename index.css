@@ -70,6 +70,7 @@ header .tab li b{
 }
 
  ul.icon{
+  padding-top: 40px;
   padding-bottom: 20px;
   font-size: 60px;
   list-style: none;
@@ -80,8 +81,9 @@ ul.icon img{
   margin-right: 15px;
 }
 
-ul.icon .vspace{
-  padding-top: 80px;
+.contents_inner {
+  padding-top: 100px;
+  margin-top: -100px;
 }
 
 
