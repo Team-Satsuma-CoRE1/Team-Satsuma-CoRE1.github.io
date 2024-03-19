@@ -5,22 +5,19 @@
     <title>チーム薩摩</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
-
-
-  <body>
-    <main>
-    <header class="header">
-      <div class="container">
+  <body> 
+    <header>
+      <!-- <div class="container"> -->
         <ul class="tab">
-          <li><a href="#">トップ</a></li>
-          <li><a href="#">活動内容</a></li>
-          <li><a href="#">メンバー</a></li>
-          <li><a href="#">活動風景</a></li>
-          <li><b href="#">お問い合わせ</a></li>
+          <li><a href="#top">トップ</a></li>
+          <li><a href="#activity">活動内容</a></li>
+          <li><a href="#members">メンバー</a></li>
+          <li><a href="#working_scene">活動風景</a></li>
+          <li><a href="#twitter"><b>公式Twitter</b></a></li>
         </ul>
-      </div>
-    </header>
-    <div class="banner"><img src="img/top_img.svg" width="800"></div>
+      <!-- </div> -->
+    </header> 
+      <div id="top" class="banner"><img src="img/top_img.svg" width="800"></div>
     <div class="container">
       <h2>チーム薩摩について</h2>
         <p>「チーム薩摩」へようこそ！<br>
@@ -28,20 +25,39 @@
           このページでは私たちの構成メンバーや活動内容等について紹介します。</p>
     </div>
     <ul class="icon">
-      <li><img src="img/list_icon.svg">活動内容</li>
-        <p></p>
-      <li><img src="img/list_icon.svg">メンバー</li>
-      <p></p>
-      <li><img src="img/list_icon.svg">活動風景</li>
-      <p></p>
-      <li><img src="img/list_icon.svg">活動内容</li>
-      <p></p>
+      <vspace></vspace>
+      <li id="activity" class="contents_inner"><img src="img/list_icon.svg">活動内容</li>
+        <p>
+          aaaaa<br>
+          aaaaa<br>
+          aaaaa<br>
+          aaaaa<br>
+          aaaaa<br>
+        </p>
+
+      <li id="members"class="contents_inner"><img src="img/list_icon.svg">メンバー</li>
+        <p>
+          aaaaa<br>
+          aaaaa<br>
+          aaaaa<br>
+          aaaaa<br>
+        </p>
+      <li id="working_scene" class="contents_inner"><img src="img/list_icon.svg">活動風景</li>
+      <p>
+        aaaaa<br>
+        aaaaa<br>
+        aaaaa<br>
+        aaaaa<br>
+        aaaaa<br>
+        aaaaa<br>
+
+      </p>
     </ul>
-    </main>
     <div class="twitter">
-      X(旧Twitter)のリンクはこちら<br>
+      <a name="twitter">X(旧Twitter)のリンクはこちら<br></a>
       <a href="https://twitter.com/TeamSatsuma?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @TeamSatsuma</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
+
   </body>
 </html>
 
