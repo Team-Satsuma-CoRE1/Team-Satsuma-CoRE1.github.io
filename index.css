@@ -58,8 +58,8 @@ header .tab li b{
 
 .container{
   max-width:1200px;
+  margin: auto;
   padding:0 15px;
-  width:100%;
   text-align: center;
 }
 
@@ -81,10 +81,16 @@ ul.icon li{
   list-style: none;
   color:#C00000;
 }
+
 ul.icon img{
   width: auto;
   margin-right: 15px;
+  margin-left: 15px;
+  text-align: center
+}
 
+ul.icon p{
+  text-align: center;
 }
 
 
@@ -95,6 +101,9 @@ ul.icon img{
   flex-wrap:wrap;
   color: #FFFFFF;
   text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
 }
 
 .cards img{
