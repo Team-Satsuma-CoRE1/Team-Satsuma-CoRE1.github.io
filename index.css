@@ -103,32 +103,39 @@ ul.icon img{
   margin-top: 10px;
 }
 
-.card_l{
-  width: 350px;
-  height: 300px;
-  box-shadow: 6px 5px #e2e2e2;
-  border-radius: 6px;
-  margin: 0 10px 30px;
-  padding: 0px;
-  border: solid 1px #cacaca;
-  text-align: center;
-  background-color: #1c1c1c;
-  font-size: auto;
-}
-
-
-.card{
+.card, .card_l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 300px;
+  min-height: 200px;
   box-shadow: 6px 5px #e2e2e2;
   border-radius: 6px;
   margin: 0 10px 30px;
-  padding: 5px;
+  padding: 20px;
   border: solid 1px #cacaca;
-  text-align: center;
   background-color: #1c1c1c;
- 
+  color: #FFFFFF;
 }
 
-.card p{
-  font-size: large;
+.card_l {
+  width: 350px;
+  min-height: 250px;
+}
+
+.card img, .card_l img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.role {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.name {
+  margin-top: 15px;
 }
