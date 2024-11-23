@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>チーム薩摩</title>
+    <link rel="icon" type="image/svg+xml" href="img/top_img.svg">
+    <link rel="alternate icon" type="image/x-icon" href="img/top_img.ico">
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body> 
@@ -24,9 +26,12 @@
       </div>
 
     <ul class="icon">
-      <li><img src="img/list_icon.svg">活動内容</li>
-        <p></p>
-      <li><img src="img/list_icon.svg">メンバー</li>
+      <li id="activity"><img src="img/list_icon.svg">活動内容</li>
+        <p>
+          メンバーが全国に散らばっているため、リモートでの活動が中心です。<br>
+          普段はDiscordやNotionを使用し、加工組み立て時に集まって活動しています。<br>
+        </p>
+      <li id="members"><img src="img/list_icon.svg">メンバー</li>
         <div class="cards">
           <div class="card_l">
             <div class="role">監督</div>
@@ -74,15 +79,38 @@
         </div>
 
 
-      <li><img src="img/list_icon.svg">活動風景</li>
-      <p></p>
+        <li id="working_scene"><img src="img/list_icon.svg">活動風景</li>
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <figure class="gazo-box">
+              <img src="img/disco.png" alt="Discord">
+            </figure>      
+            <figure class="gazo-box">
+              <img src="img/assembly.jpg" alt="Assembly">
+            </figure>
+            <figure class="gazo-box">
+              <img src="img/drawio.png" alt="Drawio">
+            </figure>
+          </div>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+        </div>
     </ul>
     <div class="container"></div>
     <div class="twitter">
-      <a>X(旧Twitter)のリンクはこちら<br></a>
-      <a href="https://twitter.com/TeamSatsuma?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @TeamSatsuma</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a>X(旧Twitter)のリンクはこちら</a><br>
+      <a href="https://twitter.com/TeamSatsuma?ref_src=twsrc%5Etfw" 
+         class="twitter-follow-button" 
+         data-size="large" 
+         data-show-count="false">
+        Follow @TeamSatsuma
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-
+    <script src="script/index.js"></script>
   </body>
 </html>
 
