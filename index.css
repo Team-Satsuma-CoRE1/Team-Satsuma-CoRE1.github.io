@@ -7,7 +7,9 @@ body {
   background:#FFFFFF;
   font-family:arial;
   color:#000000;
-
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 header {
@@ -16,7 +18,11 @@ header {
   height: 40px;
   align-items: center;
   margin-bottom: 40px;
+}
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 header .tab{
@@ -88,6 +94,8 @@ ul.icon p{
 ul.icon img{
   width: auto;
   margin-right: 15px;
+  max-width: 100%;
+  height: auto;
 }
 
 .cards{
@@ -105,6 +113,7 @@ ul.icon img{
   width: 60px;
   border-radius:  50%;
   margin-top: 10px;
+  max-width: 100%;
 }
 
 .card, .card_l {
@@ -129,10 +138,11 @@ ul.icon img{
 }
 
 .card img, .card_l img {
-  width: 80px;
-  height: 80px;
+  width: 80px !important;
+  height: 80px  !important;
   object-fit: cover;
   border-radius: 50%;
+  max-width: 100%;
 }
 
 .role {
@@ -173,6 +183,7 @@ ul.icon img{
   height: 360px;
   object-fit: cover;
   display: block;
+  max-width: 100%;
 }
 
 .carousel-dots {
