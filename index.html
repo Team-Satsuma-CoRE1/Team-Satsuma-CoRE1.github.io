@@ -3,41 +3,114 @@
   <head>
     <meta charset="utf-8">
     <title>チーム薩摩</title>
+    <link rel="icon" type="image/svg+xml" href="img/top_img.svg">
+    <link rel="alternate icon" type="image/x-icon" href="img/top_img.ico">
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
-
-
-  <body>
-    <main>
-    <header class="header">
-      <div class="container">
+  <body> 
+    <header>
         <ul class="tab">
-          <li><a href="#">トップ</a></li>
-          <li><a href="#">活動内容</a></li>
-          <li><a href="#">メンバー</a></li>
-          <li><a href="#">活動風景</a></li>
-          <li><b href="#">お問い合わせ</a></li>
+          <li><a href="#top">トップ</a></li>
+          <li><a href="#activity">活動内容</a></li>
+          <li><a href="#members">メンバー</a></li>
+          <li><a href="#working_scene">活動風景</a></li>
+          <li><a href="https://twitter.com/TeamSatsuma?ref_src=twsrc%5Etfw"><b>公式Twitter</b></a></li>
         </ul>
-      </div>
-    </header>
-    <div class="banner"><img src="img/top_img.svg" width="800"></div>
-    <div class="container">
-      <h2>チーム薩摩について</h2>
-        <p>「チーム薩摩」へようこそ！<br>
+    </header> 
+    <div id="top" class="banner"><img src="img/top_img.svg" width="800"></div>
+      <div class="container">
+        <h2>チーム薩摩について</h2>
+          <p>「チーム薩摩」へようこそ！<br>
           私たち「チーム薩摩」は鹿児島大学出身のメンバーで活動するチームです。<br>
           このページでは私たちの構成メンバーや活動内容等について紹介します。</p>
-    </div>
+      </div>
+
     <ul class="icon">
-      <li><img src="img/list_icon.svg">活動内容</li>
-        <p></p>
-      <li><img src="img/list_icon.svg">メンバー</li>
-      <p></p>
-      <li><img src="img/list_icon.svg">活動風景</li>
-      <p></p>
-      <li><img src="img/list_icon.svg">活動内容</li>
-      <p></p>
+      <li id="activity"><img src="img/list_icon.svg">活動内容</li>
+        <p>
+          メンバーが全国に散らばっているため、リモートでの活動が中心です。<br>
+          普段はDiscordやNotionを使用し、加工組み立て時に集まって活動しています。<br>
+        </p>
+      <li id="members"><img src="img/list_icon.svg">メンバー</li>
+        <div class="cards">
+          <div class="card_l">
+            <div class="role">監督</div>
+            <img src="img/list_icon.svg" alt="yoshimi">
+            <div class="name">yoshimi</div>
+          </div>
+
+          <div class="card_l">
+            <div class="role">キャプテン</div>
+            <img src="img/k4miku-.jpeg" alt="k4miku-">
+            <div class="name">k4miku-</div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="role">プロジェクトマネージャー</div>
+            <img src="img/list_icon.svg" alt="sssome">
+            <div class="name">sssome</div>
+          </div>
+
+          <div class="card">
+            <div class="role">操縦手</div>
+            <img src="img/id.jpeg" alt="id">
+            <div class="name">id</div>
+          </div>
+
+          <div class="card">
+            <div class="role">安全管理</div>
+            <img src="img/Regen.png" alt="Regen">
+            <div class="name">Regen</div>
+          </div>
+
+          <div class="card">
+            <div class="role">PR</div>
+            <img src="img/kawazap.png" alt="kawazap">
+            <div class="name">kawazap</div>
+          </div>
+
+          <div class="card">
+            <div class="role">財務</div>
+            <img src="img/RK.jpg" alt="RK">
+            <div class="name">RK</div>
+          </div>
+
+        </div>
+
+
+        <li id="working_scene"><img src="img/list_icon.svg">活動風景</li>
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <figure class="gazo-box">
+              <img src="img/disco.png" alt="Discord">
+            </figure>      
+            <figure class="gazo-box">
+              <img src="img/assembly.jpg" alt="Assembly">
+            </figure>
+            <figure class="gazo-box">
+              <img src="img/drawio.png" alt="Drawio">
+            </figure>
+          </div>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+        </div>
     </ul>
-    </main>
+    <div class="container"></div>
+    <div class="twitter">
+      <a>X(旧Twitter)のリンクはこちら</a><br>
+      <a href="https://twitter.com/TeamSatsuma?ref_src=twsrc%5Etfw" 
+         class="twitter-follow-button" 
+         data-size="large" 
+         data-show-count="false">
+        Follow @TeamSatsuma
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script src="script/index.js"></script>
   </body>
 </html>
 
